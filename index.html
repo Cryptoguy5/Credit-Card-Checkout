@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Signup</title>
+<style>
+    
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    section {
+        height: 100vh;
+        width: 50vw;;
+        display: block;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    div {
+        height: 100vh;
+        width: 50vw;
+        display:flex;
+        margin: 0;
+        padding: 0;
+    }   
+        
+   
+
+    .house {
+        object-fit: contain;
+        height: 100vh;
+        width: 50vw;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .card {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        width: 300px;
+    }
+
+    figcaption {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        font-size: 36px;
+    }
+
+    h1 {
+        position: absolute;
+        top: 20%;
+        right: 20%;
+    }
+
+    .fieldset1 {
+        position: absolute;
+        top: 30%;
+        right: 15%;
+        border: none;
+        font-size: 14px;     
+    }
+
+    .fieldset2 {
+        position: relative;
+        top: 64%;
+        left: 20%;
+        border: none;
+        font-size: 14px;     
+    }
+
+   
+    input {
+        display: block;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .input1 {
+        display:inline;
+        width: 15%;
+        height: 5%;
+        margin: 10px;
+        position: relative;
+        right: 12%;
+    }
+    
+
+    label {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        display: block;
+    }
+
+    .label1 {
+        margin-bottom: 10px;
+        margin-top: 15px;
+        display: block;
+        position: relative;
+        right: 10%;
+    }
+
+    .label2 {
+        margin-bottom: 10px;
+        margin-top: 15px;
+        display: block;
+        position: relative;
+        left: 30%;
+        bottom: 14%;
+        }
+
+    .visa {
+        height: 50px;
+        position: absolute;
+        bottom: 35%;
+        right: 35%;
+    }
+
+    .master-card {
+        height: 50px;
+        position: absolute;
+        bottom: 35%;
+        right: 26%;
+    }
+
+    .capital-one {
+        height: 50px;
+        position: absolute;
+        bottom: 35%;
+        right: 16%;
+    }
+
+    button {
+        height: 50px;
+        width: 150px;
+        position: absolute;
+        bottom: 5%;
+        right: 23%;
+    }
+
+
+
+</style>
+</head>
+<body>
+    <section>
+        <div>
+             <img class="house" src="./TV-Stand-80-inch-TV-Universal-Stand-Modern-Cabinet-20-Color-LED-Wall-Mounted-Floating-High-Gloss-Table-Entertainment-Center-Medi.webp" alt="">
+             <img class="card" src="./credit-card-png--3616.png">
+             <figcaption>Total $1999</figcaption>
+            </div>
+    </section>
+    <section>
+        <div class="div2">
+         <h1>Credit Card Checkout</h1>
+         <fieldset class="fieldset1">
+            <label>
+                Credit Card Name
+            </label>
+            <input  type="text" placeholder="Input Card Name">
+            <label>
+                Credit Card Number
+            </label>
+            <input type="text" placeholder="Input Card Number">
+         </fieldset>
+        <img class="visa" src="./Old_Visa_Logo.svg.png" alt="visa">
+        <img class="master-card" src="./Mastercard_new_logo-1200x865.webp" alt="master-card">
+        <img class="capital-one" src="./Capital-One-Logo-2008-2016.jpg" alt="capital-one">
+        <fieldset class="fieldset2">
+            <label class="label1">Exp Date</label>
+            <input class="input1" type="text" placeholder="MM">
+            <input class="input1" type="text" placeholder="YY">
+            <input class="input1" type="text" placeholder="...">
+            <label class="label2">CVC</label>
+        </fieldset>
+        <button type="button">Coninue Pay</button>
+        </div>
+    </section>
+</body>
+</html>
